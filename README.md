@@ -1,5 +1,9 @@
 # 🌍 AI Travel Itinerary Builder
 
+
+https://github.com/user-attachments/assets/c009535d-8432-4bff-8c11-3bb1987ab89e
+
+
 A full-stack web application that creates personalized, weather-aware travel itineraries using AI. The app combines real-time weather data with AI-powered recommendations to generate comprehensive travel plans.
 
 ## ✨ Features
@@ -45,8 +49,8 @@ A full-stack web application that creates personalized, weather-aware travel iti
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd travel
+git [clone https://github.com/injamul3798/AI_Travel_Itinerary
+cd AI_Travel_Itinerary
 ```
 
 ### 2. Backend Setup
@@ -65,8 +69,7 @@ pip install -r ../requirements.txt
 # Run database migrations
 python manage.py migrate
 
-# Create superuser (optional)
-python manage.py createsuperuser
+ 
 
 # Start the development server
 python manage.py runserver
@@ -211,61 +214,9 @@ travel/
 └── README.md                 # This file
 ```
 
-## 🔍 Troubleshooting
+## 👨‍💻 Developed By
 
-### Common Issues
+### Injamul Haque  
+💼 Machine Learning Engineer at [DevtechGuru Limited]
 
-1. **Weather API 401/403 Errors**:
 
-   - Check if your RapidAPI key is valid
-   - Verify your subscription includes the weather endpoint
-   - The app will automatically fall back to OpenWeatherMap
-
-2. **CORS Errors**:
-
-   - Ensure the backend is running on port 8000
-   - Check that `django-cors-headers` is installed
-   - Verify CORS settings in `settings.py`
-
-3. **Database Errors**:
-
-   - Run `python manage.py migrate` to apply migrations
-   - Check if the database file has proper permissions
-
-4. **Frontend Proxy Issues**:
-   - Ensure the backend is running before starting the frontend
-   - Check that the proxy setting in `package.json` points to the correct backend URL
-
-### Debug Mode
-
-Enable debug mode by setting `DEBUG=True` in your `.env` file or Django settings.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Weather data provided by RapidAPI and OpenWeatherMap
-- AI capabilities powered by Groq
-- Built with Django and React
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the troubleshooting section above
-2. Review the API documentation
-3. Open an issue on the repository
-
----
-
-**Happy Travel Planning! ✈️🌍**
